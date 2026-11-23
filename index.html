@@ -1,10 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urdu Novels Store - Best Books Collection</title>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <style>
         * {
             margin: 0;
@@ -19,7 +22,6 @@
             line-height: 1.6;
         }
 
-        /* Header / Hero Section */
         header {
             background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             color: white;
@@ -43,10 +45,10 @@
             opacity: 0.9;
         }
 
-        /* Top Contact Buttons */
         .cta-buttons {
             display: flex;
             justify-content: center;
+            align-items: center;
             gap: 15px;
             flex-wrap: wrap;
         }
@@ -54,12 +56,13 @@
         .btn {
             display: inline-flex;
             align-items: center;
-            gap: 8px;
-            padding: 12px 25px;
+            justify-content: center;
+            gap: 10px;
+            padding: 17px 45px;
             border-radius: 50px;
             text-decoration: none;
-            font-weight: 600;
-            font-size: 1rem;
+            font-weight: 700;
+            font-size: 1.2rem;
             transition: transform 0.2s, box-shadow 0.2s;
             cursor: pointer;
             border: none;
@@ -73,14 +76,9 @@
         .btn-whatsapp {
             background-color: #25D366;
             color: white;
+            min-width: 280px;
         }
 
-        .btn-gmail {
-            background-color: #EA4335;
-            color: white;
-        }
-
-        /* Books Showcase Section */
         .container {
             max-width: 1150px;
             margin: 50px auto;
@@ -157,7 +155,6 @@
             margin-bottom: 15px;
         }
 
-        /* Bottom Order Section */
         .order-box {
             background: white;
             border-radius: 20px;
@@ -177,7 +174,6 @@
             margin-bottom: 25px;
         }
 
-        /* Footer */
         footer {
             text-align: center;
             padding: 25px;
@@ -191,94 +187,112 @@
             header h1 {
                 font-size: 1.8rem;
             }
+
             .card img {
                 height: 280px;
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 320px;
+                font-size: 1.1rem;
+                padding: 16px 20px;
             }
         }
     </style>
 </head>
+
 <body>
 
-    <!-- Hero Section -->
     <header>
-        <h1>Classic Urdu Novels Collection   100% OFF</h1>
-        <p>Apne pasandeeda Urdu novels ab ghar baithe mangwayein. Best print quality aur fast delivery all over Pakistan!</p>
-        
+        <h1>Classic Urdu Novels Collection 100% OFF</h1>
+
+        <p>
+            Apne pasandeeda Urdu novels ab ghar baithe mangwayein.
+            Best print quality aur fast delivery all over Pakistan!
+        </p>
+
         <div class="cta-buttons">
-            <!-- Apna WhatsApp number 923000000000 ki jagah likhein -->
-            <a href="https://wa.me/923000000000?text=Assalam-o-Alaikum!%20Mujhy%20Urdu%20Novels%20order%20karne%20hain." target="_blank" class="btn btn-whatsapp">
+            <a href="https://wa.me/923000000000?text=Assalam-o-Alaikum!%20Mujhy%20Urdu%20Novels%20order%20karne%20hain."
+               target="_blank" class="btn btn-whatsapp">
                 📱 Order on WhatsApp
-            </a>
-            <!-- Apna Gmail address yourname@gmail.com ki jagah likhein -->
-            <a href="mailto:yourname@gmail.com?subject=Urdu%20Novel%20Order&body=Assalam-o-Alaikum,%20Mujhy%20novel%20order%20karna%20hai:" class="btn btn-gmail">
-                ✉️ Order via Gmail
             </a>
         </div>
     </header>
 
-    <!-- Books Gallery Section -->
     <div class="container">
+
         <h2 class="section-title">Featured Novels & Bundles</h2>
-        <p class="section-subtitle">Best-selling Urdu literature — Limited stock available!</p>
+
+        <p class="section-subtitle">
+            Best-selling Urdu literature — Limited stock available!
+        </p>
 
         <div class="grid">
-            <!-- Book 1 -->
+
             <div class="card">
-                <img src="pic1.jpg" alt="Ishq-e-Atish by Sadia Rajpoot">
+                <img src="pic1.jpg" alt="Ishq-e-Atish">
                 <div class="card-body">
                     <span class="badge">Bestseller</span>
                     <h3 class="card-title">Ishq-e-Atish</h3>
-                    <p class="card-desc">By Sadia Rajpoot — Ek dil ko choo lene wali mohabbat aur junoon ki kahani.</p>
+                    <p class="card-desc">
+                        By Sadia Rajpoot — Ek dil ko choo lene wali mohabbat aur junoon ki kahani.
+                    </p>
                 </div>
             </div>
 
-            <!-- Book 2 -->
             <div class="card">
-                <img src="pic2.jpg" alt="Abdullah by Hashim Nadeem">
+                <img src="pic2.jpg" alt="Abdullah">
                 <div class="card-body">
                     <span class="badge">Spiritual Classic</span>
                     <h3 class="card-title">Abdullah</h3>
-                    <p class="card-desc">By Hashim Nadeem — Ishq-e-Haqeeqi aur roohani safar ka shahkar novel.</p>
+                    <p class="card-desc">
+                        By Hashim Nadeem — Ishq-e-Haqeeqi aur roohani safar ka shahkar novel.
+                    </p>
                 </div>
             </div>
 
-            <!-- Book 3 -->
             <div class="card">
                 <img src="pic3.jpg" alt="Mega Urdu Novels Bundle">
                 <div class="card-body">
                     <span class="badge">Mega Bundle</span>
                     <h3 class="card-title">Umera & Nemrah Ahmed Collection</h3>
-                    <p class="card-desc">Peer-e-Kamil, Jannat Kay Pattay, Namal, Haalim, Mushaf aur digar mashhoor novels.</p>
+                    <p class="card-desc">
+                        Peer-e-Kamil, Jannat Kay Pattay, Namal, Haalim, Mushaf aur digar mashhoor novels.
+                    </p>
                 </div>
             </div>
 
-            <!-- Book 4 -->
             <div class="card">
                 <img src="pic4.jpg" alt="All-Time Favorite Novels Pack">
                 <div class="card-body">
                     <span class="badge">Special Offer</span>
                     <h3 class="card-title">Super Hit Novels Pack</h3>
-                    <p class="card-desc">Alif, Aab-e-Hayat, Amar Bail, Bakht aur Yaaram ek hi jagah dastiyab.</p>
+                    <p class="card-desc">
+                        Alif, Aab-e-Hayat, Amar Bail, Bakht aur Yaaram ek hi jagah dastiyab.
+                    </p>
                 </div>
             </div>
+
         </div>
 
-        <!-- Direct Contact Section -->
         <div class="order-box">
             <h2>Abhi Apna Order Book Karein!</h2>
-            <p>Kisi bhi novel ki qeemat maloom karne ya order karne ke liye neeche diye gaye buttons par click karein.</p>
+
+            <p>
+                Kisi bhi novel ki qeemat maloom karne ya order karne ke liye WhatsApp par rabta karein.
+            </p>
+
             <div class="cta-buttons">
-                <a href="https://wa.me/923000000000?text=Assalam-o-Alaikum!%20Mujhy%20Urdu%20Novels%20ki%20details%20chahiye." target="_blank" class="btn btn-whatsapp">
+                <a href="https://wa.me/923000000000?text=Assalam-o-Alaikum!%20Mujhy%20Urdu%20Novels%20ki%20details%20chahiye."
+                   target="_blank" class="btn btn-whatsapp">
                     📱 Chat on WhatsApp
-                </a>
-                <a href="mailto:yourname@gmail.com?subject=Book%20Inquiry&body=Assalam-o-Alaikum,%20Mujhy%20books%20ki%20price%20maloom%20karni%20hai:" class="btn btn-gmail">
-                    ✉️ Send Email (Gmail)
                 </a>
             </div>
         </div>
+
     </div>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2026 Urdu Novels Store. All Rights Reserved.</p>
     </footer>
